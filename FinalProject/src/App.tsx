@@ -1,5 +1,7 @@
 import './App.css'
-import SearchAppBar from './components/SearchAppBar'
+import MainAppBar from './components/AppBar'
+import Carousel from './components/Carousel'
+
 
 
 function App() {
@@ -7,7 +9,10 @@ function App() {
   return (
     <>
       <div className='container-fluid'>
-        <SearchAppBar/>
+        <MainAppBar/>
+        <div>
+          <Carousel/>
+        </div>
       </div>
     </>
   )
