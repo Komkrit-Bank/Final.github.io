@@ -1,6 +1,6 @@
 import { Image } from "../types/type"
 
-const Carousel = () => {
+const Carousel = ({imageName}: Image):JSX.Element => {
   return (
     <>
     <div id="carouselExampleCaptions" className="carousel slide">

@@ -11,7 +11,7 @@ function App() {
       <div className='container-fluid'>
         <MainAppBar/>
         <div>
-          <Carousel/>
+          <Carousel imageName=''/>
         </div>
       </div>
     </>
