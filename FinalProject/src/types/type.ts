@@ -1,3 +1,3 @@
 export interface Image {
-    imageName: string;
+    imageName: string[];
  }
